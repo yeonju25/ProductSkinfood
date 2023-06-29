@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+#login_header{
+    width: 600px;
+    height: 117px;
+    margin: 0 auto;
+}
+
+.backbnt{
+    width: 150px;
+    height: 30px;
+}
+
+.backbnt a{
+    text-decoration: none;
+}
+
+.shopName{
+    text-align: center;
+}
+.shopName a{
+    text-decoration: none;
+}
+
+
+
+#login_section{
+    width: 600px;
+    height: 1117px;
+    margin: 0 auto;
+}
+
+#login_section .title{
+    text-align: center;
+}
+
+#memberLogin .inputBox{
+    text-align: center;
+}
+
+#memberLogin .loginCheckBox{
+    text-align: center;
+}
+
+#memberLogin .loginBtn{
+    text-align: center;
+}
+

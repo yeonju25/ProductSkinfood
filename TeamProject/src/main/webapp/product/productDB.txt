@@ -1,0 +1,12 @@
+create table productList(
+	id number(3) primary key,
+	name varchar2(200),
+	price number(6),
+	image varchar2(100),
+	tag varchar2(200),
+	review number(3)
+);
+
+create sequence productlist_seq start with 1 INCREMENT by 1;
+
+select * from productlist order by id;

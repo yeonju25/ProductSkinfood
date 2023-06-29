@@ -1,0 +1,43 @@
+[33mcommit f929ac0917692e5fb6434e01769c42276271e991[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 7854d2e 8fbfad8
+Author: kimsohwi <berry1699@naver.com>
+Date:   Tue Jun 20 17:46:21 2023 +0900
+
+    Merge https://github.com/Alldayscoding/EZenTeamProject
+
+[33mcommit 7854d2eb6bb46f417aed62858bf3a50224bfe9f1[m
+Author: kimsohwi <berry1699@naver.com>
+Date:   Tue Jun 20 17:40:16 2023 +0900
+
+    add header.jsp and main.jsp
+
+[33mcommit 8fbfad802c73cdd6b4cc4e70c012b40c58444966[m
+Merge: 5a4b09f c09beb4
+Author: SeoYeonju <lily_real@naver.com>
+Date:   Tue Jun 20 17:34:16 2023 +0900
+
+    first
+
+[33mcommit 5a4b09f10b38665f29343a461d9bc82fd93495ef[m
+Author: SeoYeonju <lily_real@naver.com>
+Date:   Tue Jun 20 17:32:34 2023 +0900
+
+    first
+
+[33mcommit c09beb48392f3bf184041c57c6fc686e51fbdc5d[m
+Author: wonsookyeon <tnrdus0530@naver.com>
+Date:   Tue Jun 20 17:27:27 2023 +0900
+
+    add product
+
+[33mcommit ca0236d78bbfabe5884374aa9e1ebc1349f4463e[m
+Author: Jason <jason.kim3221@gmail.com>
+Date:   Tue Jun 20 17:06:16 2023 +0900
+
+    update product page
+
+[33mcommit dfad6c2e8553b0b690965d2a69456caf95769f38[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jason <jason.kim3221@gmail.com>
+Date:   Mon Jun 19 18:55:34 2023 -0400
+
+    feat main,about,event,faq,header,product

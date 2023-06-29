@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+div#wapper {
+    width: 100%;
+    text-align: left;
+    min-height: 300px;
+    border : 5px solid rgb(73, 4, 4); 
+    margin: 0 auto;
+}
+header, footer, nav, aside, section {
+    border: 1px solid #999;
+    margin: 5px; 
+    padding: 10px;
+}
+header {
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+    text-decoration: none; 
+}
+header ul {
+    font-size:13px;
+    text-align:right;
+    margin: 6px 10px 10px 10px;
+}
+header ul a {
+	text-decoration: none; 
+	color: rgb(132, 127, 127); 
+	padding: 15px;
+}
+.logo img {
+	width:150px; 
+	height:40px;
+}
+.click a {
+	text-decoration: none; 
+	color: black;	
+	font-size:20px;
+	margin: 20px;
+}
+.icon img {
+	width:50px; 
+	height:50px;	
+}
+#main-body{
+
+    margin: 0 200px;
+}
+nav, section, aside {
+    float: left;
+    height: 600px;
+}
+/* px 는 픽셀 값을 말하며 % 는 상위 컨테이너에서 차지하는 비율을 말합니다.*/
+nav {
+    background-color: goldenrod;       
+    width: 200px; 
+}
+section {
+    background-color: green;	
+    width: 1000px; 
+    height:1600px ;
+}
+aside {
+    background-color: goldenrod;
+    width: 100px; 
+}
+footer {
+    height: 50px;
+    background-color: blue;
+    position: relatiev;
+    clear: both;
+}
+article {
+     width: 90%;
+    margin: 20px; 
+    background-color: #999;
+}

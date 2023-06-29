@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+* { margin: 0; padding: 0;
+	background-color: floralwhite;
+}
+
+div.category{
+    width: 1140px; height: 45px;
+}
+
+.category ul{
+	height: 45px;
+    float: left;
+    list-style: none;
+}
+
+.category ul li{
+	display: inline-block;
+	font-size: 14px;
+	color: #777;
+}
+
+.category ul li a{
+	text-decoration-line: none;
+}
+
+.search_icon{
+	width:30px; height:30px;
+}
+
+.search_product{
+	border: none;
+	width: 500px; height: 50px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.search_product:focus{
+	outline: none;
+	background-color: floralwhite;
+}
+
+div.container{
+	width: 1140px; height: 1840px;
+    display: flex;
+ 	gap: 20px 10px;
+  	flex-wrap: wrap;
+  	justify-content: center;  	
+  	align-content: flex-start;
+}
+
+div.container a{
+	text-decoration-line: none;
+	color: #555;
+}
+
+div.item{
+	width: 240px; height: 360x;
+    margin : 0 10px;
+}
+
+span.sale_price{
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+img.product_img{
+	width:240px; height:250px;
+}
+
+.detail_product{
+	height: 950px;
+	background-color: floralwhite;
+}
+
+.detail_table *{
+	background-color: Linen;
+}
+
+.detail_table{
+	width:1140px; height:800px;
+	text-align: center;
+	background-color: Linen;
+	padding: 0 50px;
+}
+
+
+.detail_table tr td {
+	width : 600px; 
+	color: #333;
+}
+
+.detail_table th{
+	width: 150px;
+	font-size: 16px;
+}
+
+.detail_name{
+	height: 100px;
+	padding-top: 30px;
+	
+}
+
+.detail_img{
+	width: 600px; height: 600px;	
+	background-color: #fff;
+	margin-bottom: 100px;
+	margin-right: 20px;
+}
+
+
+.detail_buy{
+   width: 600px;
+   align-items: center;
+}
+
+.detail_buy div{ 
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cart_add{
+   width: 250px; height: 50px;
+   background-color: white;
+   margin-right: 20px;
+   color: #333;
+   font-size : 20px;
+   font-weight: bold;
+}
+
+.buy_now{
+   width: 250px; height: 50px;
+   background-color: BurlyWood;
+   margin-left: 20px;
+   font-size : 20px;
+   font-weight: bold;
+	color: white;
+}
+
+.amount_wrap{
+	display: inline-block;
+	margin-top: 10px;
+	width: 300px; height: 30px;
+}
+
+.amount_wrap input{
+	padding:0%;
+	text-align: center;
+	border: 1px solid Linen;
+}
+
+.amount_wrap button{
+	width:30px;
+	border: 1px solid Linen;
+	border-radius: 100%;
+	background-color: BurlyWood;
+}
+
+.amount_wrap input{
+	font-size: 18px;
+}
+
+.sell_price {
+	border:0 solid black;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sell_price_won{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.underline{
+	border-bottom: 1px solid BurlyWood;
+}
+
+
+.item_page{
+	height: 100px;	
+}
+
+.item_page div{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.item_page div a{	
+	text-decoration-line: none;
+	font-size: 25px;
+	color: #777;
+}
+
+.item_page div a:hover{
+	border: 1px solid white;
+	background-color: BurlyWood;
+	color: white;
+}
+
+
+.buy_product{
+	width:800px; height:700px;
+	text-align: center;
+	background-color: Linen;
+	padding: 0 50px;
+}
+
+.buy_product tr td img{
+	width: 200px; height: 200px;
+	border: 2px solid white;
+}
+
+.buy_product tr td input{
+	border: 1px solid #777;
+	height: 20px;
+	text-align: center;
+}
+
+.buy_btn{
+	width: 200px; height: 50px;
+	background-color: BurlyWood;
+	border: 3px solid white;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
